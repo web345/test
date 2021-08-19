@@ -17,7 +17,7 @@ export default function App() {
   return (
     <SafeAreaView>
       <View style={style.form1}>
-    <Text style={style.text} >Gender: {gioitinh}</Text>
+    <Text style={style.text} >Gender: {gioitinh}aaaa</Text>
     <TouchableOpacity style={style.button} onPress={changeGender}><Text style={style.text}>Change gender</Text></TouchableOpacity>
     <Text style={style.text} >Text của màn con: {text1}</Text>
     </View>
